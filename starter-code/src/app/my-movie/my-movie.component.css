@@ -1,0 +1,11 @@
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 60%;
+}
+img {
+  height: 60vh;
+}

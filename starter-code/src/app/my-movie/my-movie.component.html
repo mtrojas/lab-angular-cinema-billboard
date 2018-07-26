@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card mb-3">
+    <img class="card-img-top" src="{{movie.poster}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{movie.title}} * Room #{{movie.room}}</h5>
+      <h6>Shows on {{movie.hours[0]}} & {{movie.hours[1]}}</h6>
+      <p class="card-text">{{movie.synopsis}}</p>
+      <p class="card-text"><small class="text-muted">{{movie.year}}   ||   {{movie.director}}   ||   {{movie.actors[0]}} + {{movie.actors[1]}} </small></p>
+      <p class="card-text"><small class="text-muted">{{movie.genres[0]}}</small></p>
+      <a [routerLink]="['/home']" class="btn btn-sm btn-dark">Back home!</a>
+    </div>
+  </div>
+</div>
